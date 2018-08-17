@@ -1,8 +1,41 @@
-/* Header and Nav Content */
-body * {
+/* Header Nav Bar */
+body {
+  background-color: black;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
 }
+
+img.logo {
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  font-size: 30px;
+  background-color: black;
+  z-index: 4;
+}
+
+nav {
+  margin-left: auto;
+  justify-content: flex-end;
+  padding-right: 18px;
+}
+
+nav span {
+  padding: 15px;
+}
+
+nav a {
+  color: seashell;
+}
+
+/* Background and Banner Content */
