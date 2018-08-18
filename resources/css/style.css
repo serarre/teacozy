@@ -14,7 +14,7 @@ img.logo {
 
 header {
   display: flex;
-  height: 69px;
+  height: 70px;
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
@@ -36,6 +36,7 @@ nav span {
 
 nav a {
   color: seashell;
+  text-decoration: underline;
 }
 
 /* Background and Banner Content */
@@ -48,11 +49,34 @@ nav a {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 
 .text-content {
   background-color: black;
   width: 100%;
+}
+
+/* Tea of the Month */
+.teaofmonth {
+  display: block;
+  text-align: center;
+}
+
+.teaofmonth-text {
+  margin: 0 auto;
+}
+
+.tea {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: auto;
+  justify-content: space-evenly;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
 }
