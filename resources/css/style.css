@@ -3,7 +3,6 @@
   font-weight: bold;
 }
 
-/* Header Nav Bar */
 body {
   background-color: black;
   font-family: Helvetica;
@@ -11,11 +10,19 @@ body {
   color: seashell;
   opacity: 0.9;
   margin: 0;
+  text-align: center;
 }
+
+h2, h3 , h4 {
+  margin: 0;
+  padding: 10px;
+}
+/* Header Nav Bar */
 
 img.logo {
   margin-left: 10px;
   margin-right: auto;
+  height: 50px;
 }
 
 header {
@@ -25,7 +32,6 @@ header {
   position: fixed;
   width: 100%;
   align-items: center;
-  font-size: 30px;
   background-color: black;
   z-index: 4;
 }
@@ -50,7 +56,7 @@ nav a {
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
   height: 700px;
   align-items: center;
   text-align: center;
@@ -91,12 +97,17 @@ nav a {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 600px;
   display: flex;
   flex-direction: row;
   opacity: 1;
-  text-align: center;
   justify-content: center;
+}
+
+ .location-text {
+  position: relative;
+  left: 580px;
+  top: 40px;
 }
 
 .location {
