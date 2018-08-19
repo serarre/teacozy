@@ -1,3 +1,8 @@
+/*Universal Styles*/
+.bold {
+  font-weight: bold;
+}
+
 /* Header Nav Bar */
 body {
   background-color: black;
@@ -71,13 +76,48 @@ nav a {
 .tea {
   display: flex;
   flex-flow: row wrap;
-  flex-basis: auto;
   justify-content: space-evenly;
   max-width: 950px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .tea img {
   height: 200px;
   width: 300px;
+}
+
+/* Location Content */
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  opacity: 1;
+  text-align: center;
+  justify-content: center;
+}
+
+.location {
+  width: 220px;
+  height: 200px;
+  background-color: black;
+  padding: 40px;
+  align-self: center;
+  margin:auto 0 auto;
+  margin-right: 40px;
+}
+
+/* Contact */
+.contact {
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
