@@ -106,8 +106,8 @@ nav a {
 
  .location-text {
   position: relative;
-  left: 580px;
-  top: 40px;
+  left: 500px;
+  top: 110px;
 }
 
 .location {
@@ -115,9 +115,10 @@ nav a {
   height: 200px;
   background-color: black;
   padding: 40px;
-  align-self: center;
-  margin:auto 0 auto;
   margin-right: 40px;
+  position: relative;
+  top: 170px;
+  right: 70px;
 }
 
 /* Contact */
